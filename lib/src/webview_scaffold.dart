@@ -192,8 +192,6 @@ class _WebviewScaffoldState extends State<WebviewScaffold> {
             }
           }
         },
-        child: widget.initialChild ??
-            const Center(child: const CircularProgressIndicator()),
       ),
     );
   }
